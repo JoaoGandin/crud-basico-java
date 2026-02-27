@@ -1,6 +1,6 @@
-package org.example.service;
+package org.example.memoria.service;
 
-import org.example.model.Produto;
+import org.example.memoria.model.Produto;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

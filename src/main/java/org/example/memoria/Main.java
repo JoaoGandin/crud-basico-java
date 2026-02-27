@@ -1,10 +1,9 @@
-package org.example;
+package org.example.memoria;
 
-import org.example.model.Produto;
-import org.example.service.ProdutoService;
+import org.example.memoria.model.Produto;
+import org.example.memoria.service.ProdutoService;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,7 +19,7 @@ public class Main {
         service.criarProduto(p3);
 
         service.atualizarPrecoProduto(3, BigDecimal.valueOf(1.99));
-        service.deletarProduto(3);
+        service.deletarProduto(2);
         service.deletarProduto(22);
 
         for(Produto p : service.listarProduto()){
