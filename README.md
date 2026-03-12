@@ -16,7 +16,6 @@ O projeto foi estruturado separando as responsabilidades para facilitar a manute
 * **`model`:** Contém a classe `Produto`, representando o domínio do negócio.
 * **`service`:** Contém a classe `ProdutoService`, responsável pela regra de negócio e manipulação da lista de dados.
 * **Encapsulamento Defensivo:** O método de listagem retorna uma cópia da lista original (`new ArrayList<>(produtos)`), protegendo a integridade dos dados internos do serviço contra modificações externas acidentais.
-* **Lógica Funcional:** Utilização de métodos modernos do Java, como `removeIf` (se você usou), para operações seguras nas coleções.
 
 ## 🚀 Funcionalidades (CRUD)
 - [x] **Create:** Adição de novos produtos garantindo que não haja IDs duplicados.
